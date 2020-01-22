@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form {
+    padding: 20px;
+}
+
+.contact-form--grey {
+    background-color: #ecf0f1;
+}
+
+.contact-form__input {
+    min-height: 24px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form__input--fullwidth {
+    width: 100%;
+}
+
+.contact-form__input--transparent {
+    background-color: transparent;
+}
+
+.contact-form__submit {
+    min-width: 100px;
+    border: none;
+    background-color: #2ecc71;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.contact-form__submit:hover {
+    background-color: #27ae60;
+}
